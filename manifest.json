@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "paste-to-callout",
+	"name": "Paste to Callout",
+	"version": "0.1.0",
 	"minAppVersion": "1.0.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Paste multi-paragraph text and insert it as a single callout, no manual editing of quote prefixes needed.",
+	"author": "hnrainll",
+	"authorUrl": "https://github.com/hnrainll",
 	"isDesktopOnly": false
 }

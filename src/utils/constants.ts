@@ -1,0 +1,15 @@
+export const BUILT_IN_CALLOUT_TYPES: readonly string[] = [
+	'note',
+	'abstract',
+	'info',
+	'todo',
+	'tip',
+	'success',
+	'question',
+	'warning',
+	'failure',
+	'danger',
+	'bug',
+	'example',
+	'quote',
+] as const;
