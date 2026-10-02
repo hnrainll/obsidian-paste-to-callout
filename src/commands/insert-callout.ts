@@ -11,7 +11,6 @@ export function registerInsertCalloutCommand(plugin: PasteToCalloutPlugin) {
 	plugin.addCommand({
 		id: 'insert-callout',
 		name: 'Insert pasted text as callout',
-		hotkeys: [{ modifiers: ['Mod', 'Alt'], key: 'v' }],
 		editorCallback: (editor: Editor) => {
 			new PasteToCalloutModal(
 				plugin.app,

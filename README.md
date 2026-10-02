@@ -11,7 +11,7 @@ Paste to Callout fixes the workflow: copy the article, invoke the dialog, and th
 ## Usage
 
 1. Copy a multi-paragraph article.
-2. Place the cursor in a note and run **Insert pasted text as callout** (Command Palette), or press the default hotkey `Ctrl/Cmd+Alt+V` (customizable in Settings → Hotkeys).
+2. Place the cursor in a note and run **Insert pasted text as callout** (Command Palette). To use it from the keyboard, bind a hotkey in **Settings → Hotkeys** — `Ctrl/Cmd+Alt+V` is a good choice.
 3. The dialog opens with the clipboard content prefilled. Pick a callout type, optionally add a title, then select **Insert**.
 4. The text is inserted at the cursor as one callout block:
 
