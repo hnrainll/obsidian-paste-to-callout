@@ -1,6 +1,7 @@
 import { Plugin } from 'obsidian';
 
 import { registerInsertCalloutCommand } from './commands/insert-callout';
+import { registerCalloutCopyButtons } from './ui/callout-copy-buttons';
 import {
 	DEFAULT_SETTINGS,
 	PasteToCalloutSettings,
@@ -12,6 +13,7 @@ export default class PasteToCalloutPlugin extends Plugin {
 	async onload(): Promise<void> {
 		await this.loadSettings();
 		registerInsertCalloutCommand(this);
+		registerCalloutCopyButtons(this);
 	}
 
 	async loadSettings(): Promise<void> {

@@ -21,6 +21,8 @@ Paste to Callout fixes the workflow: copy the article, invoke the dialog, and th
 
 The callout type you last used is preselected the next time the dialog opens.
 
+In reading view or Live Preview, hover over a callout and select the copy icon at the right of its title to copy its displayed body text without the `>` prefixes or callout heading. On touch devices, the icon stays visible.
+
 ## Callout types
 
 The dropdown lists Obsidian's built-in callout types plus a **Custom…** entry for types defined by your theme.
